@@ -3,16 +3,22 @@
 
 **Modulation**
 - The manipulation of the amplitude, frequency or phase of an electromagnetic (EM) wave with the intent of transmitting information.
+- Why need modulation?
+    - To separate signals from different transmitters.
+    - Reduce the antenna size and height.
+    - Reduce interference.
+    - Efficient use of the available bandwidth.
 
 **Modulation Classification**
-- In some use cases such as dynamic spectrum sensing in the commercial space and electronic warfare in militiary where one would like to infer the modulation type given just the received signal. This whole process is called as modualtion classificaiton.
+- In some use cases such as dynamic spectrum sensing in the commercial space and electronic warfare in militiary where one would like to infer the modulation type given just the received signal. This whole process is called as modulation classificaiton.
     - It is an extension of signal detection, which is binary classificaiton problem - whether signal is present of not.
+    - It is an N-class classificaiton problem.
 
 **Quadrature Signals**
 - Two signals are said to be in quadrature when they are 90deg apart in phase.
     E.g. - Sine and Cosine are in quadrature.
 
-- By convention the amplitude of the in=phase signal is **I**, I\*cos(2πft) and the amplitude of the 90 deg shifted signal is **Q**, Q\*sin(2πft).
+- By convention the amplitude of the in-phase signal is **I**, I\*cos(2πft) and the amplitude of the 90 deg shifted signal is **Q**, Q\*sin(2πft).
 
 ![Phasor](./phasor-diag.png)
 
